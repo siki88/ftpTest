@@ -1,0 +1,58 @@
+{block style}
+	<link rel="stylesheet" href="{$basePath}/css/backend.css">
+{/block}
+
+{block content}
+	{include header}
+	{include sectionUsers}
+{/block}
+
+
+{block header}
+	<header>
+		<h1  n:block="title">WIEV EVALUATIONS ON {$titleNews}</h1>
+		{include navigation}
+	</header>
+{/block}
+
+
+{block navigation}
+	<nav>
+		<ul class="navig">
+			<li><a n:href="Admin:default">MAIN</a></li>
+			<li><a n:href="Admin:news">NEWS</a></li>
+			<li><a n:href="Admin:out">LOGOUT</a></li>
+		</ul>
+	</nav>
+{/block}
+
+{block sectionUsers}
+	<section>
+		{include table}
+	</section>
+{/block}
+
+
+
+{block table}
+	<table>
+		<thead>
+		<tr>
+			<th n:foreach="$evaluationsKeys as $evaluationsKey">{$evaluationsKey['name']}</th>
+			<th>delete evaluations</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr n:foreach="$evaluationsValues as $evaluationsValue">
+			<td>{$evaluationsValue->id}</td>
+			<td>{$evaluationsValue->news_id}</td>
+			<td>{$evaluationsValue->users_id}</td>
+			<td>{$evaluationsValue->inch_up}</td>
+			<td>{$evaluationsValue->inch_down}</td>
+			<td>{$evaluationsValue->evaluation}</td>
+			<td class="date">{$evaluationsValue->created_at|date:'F j, Y'}</td>
+			<td><a n:href="Admin:evaluationsDelete $evaluationsValue->id">delete evaluations</a></td>
+		</tr>
+		</tbody>
+	</table>
+{/block}

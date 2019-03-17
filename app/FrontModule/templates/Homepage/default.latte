@@ -1,0 +1,24 @@
+{block style}
+	<link rel="stylesheet" href="{$basePath}/css/backend.css">
+{/block}
+
+{block content}
+	{include header}
+{/block}
+
+
+{block header}
+	<header>
+		<h1>WELCOME TO FRONTEND</h1>
+		{include navigation}
+	</header>
+{/block}
+
+
+{block navigation}
+	<nav>
+		<ul class="navig">
+			<li><a n:href="Admin:login">ADMIN LOGIN</a></li>
+		</ul>
+	</nav>
+{/block}

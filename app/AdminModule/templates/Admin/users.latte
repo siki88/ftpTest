@@ -1,0 +1,62 @@
+{block style}
+	<link rel="stylesheet" href="{$basePath}/css/backend.css">
+{/block}
+
+{block content}
+	{include header}
+	{include sectionUsers}
+{/block}
+
+
+{block header}
+	<header>
+		<h1  n:block="title">USERS LIST</h1>
+		{include navigation}
+	</header>
+{/block}
+
+
+{block navigation}
+	<nav>
+		<ul class="navig">
+			<li><a n:href="Admin:default">MAIN</a></li>
+			<li><a n:href="Admin:news">NEWS</a></li>
+			<li><a n:href="Admin:out">LOGOUT</a></li>
+		</ul>
+	</nav>
+{/block}
+
+
+{block sectionUsers}
+	<section>
+		{include table}
+		{include articleAddUser}
+	</section>
+{/block}
+{block articleAddUser}
+	<article>UPLOAD NEW USER
+		{control form}
+	</article>
+{/block}
+
+
+{block table}
+	<table>
+		<thead>
+			<tr>
+				<th n:foreach="$usersKeys as $usersKey">{$usersKey['name']}</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr n:foreach="$usersValues as $usersValue">
+				<td>{$usersValue->id}</td>
+				<td>{$usersValue->username}</td>
+				<td>{$usersValue->email}</td>
+				<td>{$usersValue->password}</td>
+				<td>{$usersValue->role}</td>
+				<td class="date">{$usersValue->created_at|date:'F j, Y'}</td>
+			</tr>
+		</tbody>
+	</table>
+{/block}

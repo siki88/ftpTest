@@ -1,0 +1,67 @@
+{block style}
+	<link rel="stylesheet" href="{$basePath}/css/backend.css">
+{/block}
+
+{block content}
+	{include header}
+	{include sectionNews}
+{/block}
+
+
+{block header}
+	<header>
+		<h1  n:block="title">NEWS LIST</h1>
+		{include navigation}
+	</header>
+{/block}
+
+
+{block navigation}
+	<nav>
+		<ul class="navig">
+			<li><a n:href="Admin:default">MAIN</a></li>
+			<li><a n:href="Admin:users">USERS</a></li>
+			<li><a n:href="Admin:out">LOGOUT</a></li>
+		</ul>
+	</nav>
+{/block}
+
+
+{block sectionNews}
+	<section>
+		{include table}
+		{include articleAddNew}
+	</section>
+{/block}
+{block articleAddNew}
+	<article>UPLOAD NEW NEWS
+		{control form}
+	</article>
+{/block}
+
+
+{block table}
+
+	<table>
+		<thead>
+		<tr>
+			<th n:foreach="$newsKeys as $newsKey">{$newsKey['name']}</th>
+			<th>kladné h.</th>
+			<th>záporné h.</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr n:foreach="$newsValues as $newsValue">
+			<td>{$newsValue->id}</td>
+			<td>{$newsValue->short_text}</td>
+			<td>{$newsValue->text}</td>
+			<td>{$newsValue->author}</td>
+			<td>{$newsValue->users_id}</td>
+			<td><a href="{$baseUrl}/img/{$newsValue->image}"><img src="{$baseUrl}/img/{$newsValue->image}" alt="{$newsValue->image}" height="50" width="50"></a></td>
+			<td class="date">{$newsValue->created_at|date:'F j, Y'}</td>
+			<td><a n:href="Admin:evaluations $newsValue->id">{$newsValue->inch_up ? $newsValue->inch_up : 0}</a></td>
+			<td><a n:href="Admin:evaluations $newsValue->id">{$newsValue->inch_down ? $newsValue->inch_down : 0}</a></td>
+		</tr>
+		</tbody>
+	</table>
+{/block}

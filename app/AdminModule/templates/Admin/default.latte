@@ -1,0 +1,37 @@
+{block style}
+	<link rel="stylesheet" href="{$basePath}/css/backend.css">
+{/block}
+
+{block content}
+	{include header}
+	{include main}
+{/block}
+
+
+{block header}
+	<header>
+		<h1 n:block="title">WELCOME TO YOUR BACKEND - - {$role} - {$email}</h1>
+		{include navigation}
+	</header>
+{/block}
+
+
+{block navigation}
+	<nav>
+		<ul class="navig">
+			<li><a n:href="Admin:users">USERS</a></li>
+			<li><a n:href="Admin:news">NEWS</a></li>
+			<li><a n:href="Admin:out">LOGOUT</a></li>
+		</ul>
+	</nav>
+{/block}
+
+
+{block main}
+	<main>
+		<aside>Number news: {$newsCount}</aside>
+		<aside>Number users: {$usersCount}</aside>
+	</main>
+{/block}
+
+

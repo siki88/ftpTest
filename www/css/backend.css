@@ -1,0 +1,86 @@
+header{
+    height: 100px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+}
+
+nav{
+    float: right;
+    width: 30%;
+    min-width: 120px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: block;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    font-size: 25px;
+}
+
+table{
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid lightgrey;
+}
+
+tr{
+
+}
+
+td{
+    text-align: center;
+}
+
+
+section{
+    min-width: 100%;
+    height: auto;
+    float: left;
+}
+
+article{
+    padding-top: 20px;
+    height: 250px;
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+}
+
+aside{
+    width: 100%;
+    text-align: center;
+}
+
+.myForm table tbody tr th{
+    border: none;
+}
+
+.myForm table tbody tr td{
+    border: none;
+}
