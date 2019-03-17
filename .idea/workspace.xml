@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff47782-c9ec-42a8-af7a-954a95752106" name="Default Changelist" comment="test git phpstorm">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="dff47782-c9ec-42a8-af7a-954a95752106" name="Default Changelist" comment="test git phpstorm" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +178,7 @@
       <updated>1552740599277</updated>
       <workItem from="1552740600490" duration="4258000" />
       <workItem from="1552807156158" duration="6446000" />
-      <workItem from="1552815770448" duration="1274000" />
+      <workItem from="1552815770448" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="test git phpstorm">
       <created>1552816168717</created>
@@ -189,11 +187,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552816168717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test git phpstorm / configuration .gitignore">
+      <created>1552817101730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552817101730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11978000" />
+    <option name="totallyTimeSpent" value="12259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +270,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test git phpstorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git phpstorm" />
+    <MESSAGE value="test git phpstorm / configuration .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git phpstorm / configuration .gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AdminModule/templates/@layout.latte" />
