@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" uploadOnCheckin="f8b54d1f-d4c2-4e63-96d8-104d53bf79aa">
     <serverData>
       <paths name="siki.php5.cz">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="siki.php5.cz" />
   </component>
 </project>
