@@ -1,2 +1,4 @@
 app/config/config.local.neon
 .idea
+log
+temp
