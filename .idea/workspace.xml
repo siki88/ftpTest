@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff47782-c9ec-42a8-af7a-954a95752106" name="Default Changelist" comment="test git phpstorm">
-      <change beforePath="$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AdminModule/templates/Admin/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/AdminModule/templates/Admin/default.latte" afterDir="false" />
-    </list>
-    <list id="25bb8e1b-29a9-42bc-a5a6-f6fca1e72ce0" name="test git phpstorm" comment="test git phpstorm&#10;&#10;(cherry picked from commit dce75f301a8aa02deee84e1f757d76e6194e8443)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dff47782-c9ec-42a8-af7a-954a95752106" name="Default Changelist" comment="test git phpstorm" />
+    <list id="25bb8e1b-29a9-42bc-a5a6-f6fca1e72ce0" name="test git phpstorm" comment="test git phpstorm&#10;&#10;(cherry picked from commit dce75f301a8aa02deee84e1f757d76e6194e8443)" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +33,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Admin/default.latte">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -88,8 +83,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+                <state relative-caret-position="387">
+                  <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -105,6 +100,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -253,7 +253,7 @@
       <updated>1552740599277</updated>
       <workItem from="1552740600490" duration="4258000" />
       <workItem from="1552807156158" duration="6446000" />
-      <workItem from="1552815770448" duration="3054000" />
+      <workItem from="1552815770448" duration="3371000" />
     </task>
     <task id="LOCAL-00001" summary="test git phpstorm">
       <created>1552816168717</created>
@@ -283,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552818800963</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test git phpstorm&#10;get myTest attribute to Admin template -&gt; $myTest">
+      <created>1552818957916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552818957916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13758000" />
+    <option name="totallyTimeSpent" value="14075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +323,7 @@
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49917898" weight="0.32963374" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49863163" visible="true" weight="0.241342" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="11" sideWeight="0.49972633" visible="true" weight="0.2663707" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.49972633" weight="0.26623377" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49972633" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50136834" side_tool="true" weight="0.20532742" />
@@ -362,7 +369,8 @@
     <MESSAGE value="test git phpstorm / configuration .gitignore" />
     <MESSAGE value="test git phpstorm update .gitignore" />
     <MESSAGE value="test git phpstorm&#10;&#10;(cherry picked from commit dce75f301a8aa02deee84e1f757d76e6194e8443)" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git phpstorm&#10;&#10;(cherry picked from commit dce75f301a8aa02deee84e1f757d76e6194e8443)" />
+    <MESSAGE value="test git phpstorm&#10;get myTest attribute to Admin template -&gt; $myTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git phpstorm&#10;get myTest attribute to Admin template -&gt; $myTest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AdminModule/templates/@layout.latte" />
@@ -410,17 +418,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Admin/default.latte">
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="728">
+          <caret line="163" column="56" selection-start-line="163" selection-start-column="56" selection-end-line="163" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AdminModule/presenters/AdminPresenter.php">
+    <entry file="file://$PROJECT_DIR$/app/AdminModule/templates/Admin/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
