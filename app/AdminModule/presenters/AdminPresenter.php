@@ -30,6 +30,7 @@ final class AdminPresenter extends Presenter{
         $this->template->usersCount = $this->usersManager->getPublicUsers()->count();
         $this->template->role = $this->user->getIdentity()->getRoles()[0];
         $this->template->email = $this->user->getIdentity()->email;
+        $this->template->myTest = 'myTestais';
     }
 
     public function actionDefault(){
